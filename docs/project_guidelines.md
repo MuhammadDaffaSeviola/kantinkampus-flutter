@@ -188,3 +188,9 @@ Dokumen yang menjadi acuan pengembangan:
 - `docs/design_tokens.md`
 - `docs/api_contract.md`
 - `docs/project_guidelines.md`
+
+## 9. AI-Assisted Development
+
+Setiap perubahan kode yang dibantu AI harus tetap mengikuti arsitektur, coding convention, API contract, dan Git workflow project.
+
+Perubahan yang dihasilkan AI harus diperiksa oleh anggota tim sebelum di-merge dan harus melalui pengujian atau verifikasi yang relevan.
