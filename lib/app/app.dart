@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'routes/app_routes.dart';
 import 'theme/app_theme.dart';
 
 class KantinKampusApp extends StatelessWidget {
@@ -7,15 +8,11 @@ class KantinKampusApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       title: 'KantinKampus',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.lightTheme,
-      home: const Scaffold(
-        body: Center(
-          child: Text('KantinKampus'),
-        ),
-      ),
+      routerConfig: appRouter,
     );
   }
 }
